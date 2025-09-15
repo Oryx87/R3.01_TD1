@@ -11,3 +11,10 @@ let largeur = 5;
 let longueur = 10;
 let aire = longueur * largeur;
 console.log(aire);
+
+//Ex 3
+console.log("Ex 3 :")
+let nom = "Baudin--Marie";
+let prenom = "Mylan";
+let chaine = prenom + " " + nom;
+console.log(chaine);
