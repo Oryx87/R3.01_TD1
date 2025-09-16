@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shifumi</title>
-    <link rel="stylesheet" href="css/style.css"/>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <h1>Shifumi</h1>
+    <header>
+        <h1>Shifumi</h1>
+    </header>
     <main>
-        <button class="choix" type="button">Pierre</button>
-        <button class="choix" type="button">Feuille</button>
-        <button class="choix" type="button">Ciseaux</button>
+        <button class="btn-choix" type="button">
+            <img src="images/pierre.jpg" alt="Pierre">
+        </button>
+        <button class="btn-choix" type="button">
+            <img src="images/feuille.jpg" alt="Feuille">
+        </button>
+        <button class="btn-choix" type="button">
+            <img src="images/ciseaux.jpg" alt="Ciseaux">
+        </button>
     </main>
-    <div class="resultat">
-        <p id="victoire"> victoire</p>
-        <p id="egalite"> égalité</p>
-        <p id="defaite"> défaite</p>
+    <section id="affichage"></section>
+    <section id="score">
+        <p id="win"> WIN</p>
+        <p id="lose"> LOSE</p>
+        <p id="draw"> DRAW</p>
         <button id="reset" type="button">Réinitialiser le score</button>
-    </div>
+    </section>
 </body>
 </html>
