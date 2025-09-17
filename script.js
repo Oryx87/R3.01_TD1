@@ -50,5 +50,5 @@ if (total_montant > min_commande){
 //Ex 8
 console.log("\nEx 8 :");
 let nbBinaire = "1101";
-let nb = parseInt(nbBinaire);
+let nb = parseInt(nbBinaire,2)
 console.log(nbBinaire + " ---> " + nb)
