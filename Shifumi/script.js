@@ -46,9 +46,10 @@ buttons.forEach(button => {
 });
 
 resetButton.addEventListener('click', () => {
-    score.win = 0;
-    score.lose = 0;
-    score.draw = 0;
-    updateScore();
-    resultDisplay.textContent = '';
+    // score.win = 0;
+    // score.lose = 0;
+    // score.draw = 0;
+    // updateScore();
+    // resultDisplay.textContent = '';
+    window.location.reload();
 })
